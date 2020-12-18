@@ -17,3 +17,12 @@
     color: #2e363e;
 }
 
+.nav__notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
