@@ -4,6 +4,7 @@
     justify-content: center;
     background-color: #fafafa;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 #friends-display-link i {
@@ -12,4 +13,29 @@
 
 #friends-display-link span {
     margin: 0 10px;
+}
+
+.friends-screen {
+    padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__couple-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+.friends-screen__couple-column .fa-heart {
+    color:pink;
+}
+
+.friends-screen__couple-column span {
+    opacity: 0.8;
+}
+.friends-screen__couple-column .fa-angle-up {
+    color: rgba(0,0,0,0.3);
 }
