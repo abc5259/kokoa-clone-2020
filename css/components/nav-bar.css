@@ -18,6 +18,18 @@
     position: relative;
 }
 
+@keyframes notificationAnimation {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
 .nav__notification {
     position: absolute;
     left: 15px;
