@@ -79,6 +79,16 @@
     font-size: 18px;
 }
 
+.message__buble-video,
+.message__buble-img{
+    background-color: rgba(0,0,0,0);
+}
+.message__buble-video video,
+.message__buble-img img {
+    width: 200px;
+    height: 200px;
+}
+
 .message__info {
     display: flex;
     align-items: flex-end;

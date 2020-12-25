@@ -57,3 +57,8 @@
 .user-component__time {
     margin-bottom: 10px;
 }
+
+.chat_room {
+    display: block;
+    margin-bottom: 20px;
+}
