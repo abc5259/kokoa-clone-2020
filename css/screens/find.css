@@ -102,6 +102,24 @@
     margin-left: 3px;
 }
 
+@keyframes heartBeat {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: scale(1.5);
+        color: tomato;
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.open-post__heart-count i {
+    will-change: transform;
+    animation: heartBeat 1.5s ease-in-out infinite;
+}
+
 .open-chat {
     margin-bottom: 100px;
 }
