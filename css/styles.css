@@ -26,3 +26,7 @@ body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
+
+.main-screen {
+  margin-bottom: 80px;
+}
